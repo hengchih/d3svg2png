@@ -1,0 +1,8 @@
+body {
+    background: lightslategray;
+    color: #000;
+}
+
+.circle {
+    fill: green;
+}
