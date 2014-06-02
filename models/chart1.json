@@ -1,0 +1,68 @@
+[
+    {
+        "additionalBudget": 155,
+        "siteName": "A1",
+        "initBudget": 315,
+        "additionalRateIsOver": true
+    },
+    {
+        "additionalBudget": 511,
+        "siteName": "A2",
+        "initBudget": 912,
+        "additionalRateIsOver": true
+    },
+    {
+        "additionalBudget": -520,
+        "siteName": "A3",
+        "initBudget": 2434,
+        "additionalRateIsOver": false
+    },
+    {
+        "additionalBudget": 1456,
+        "siteName": "Bumping",
+        "initBudget": 3169,
+        "additionalRateIsOver": true
+    },
+    {
+        "additionalBudget": -100,
+        "siteName": "TEST",
+        "initBudget": 1535,
+        "additionalRateIsOver": false
+    },
+    {
+        "additionalBudget": 0,
+        "siteName": "CE",
+        "initBudget": 175,
+        "additionalRateIsOver": false
+    },
+    {
+        "additionalBudget": 226,
+        "siteName": "FAC",
+        "initBudget": 2937,
+        "additionalRateIsOver": false
+    },
+    {
+        "additionalBudget": 1,
+        "siteName": "HA",
+        "initBudget": 84,
+        "additionalRateIsOver": false
+    },
+    {
+        "additionalBudget": 36,
+        "siteName": "IT",
+        "initBudget": 84,
+        "additionalRateIsOver": true
+    },
+    {
+        "additionalBudget": -19,
+        "siteName": "PPMM",
+        "initBudget": 79,
+        "additionalRateIsOver": false
+    },
+    {
+        "additionalBudget": 0,
+        "siteName": "QA",
+        "initBudget": 69,
+        "additionalRateIsOver": false
+    }
+]

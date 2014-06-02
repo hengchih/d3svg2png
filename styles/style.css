@@ -1,8 +1,148 @@
 body {
-    background: lightslategray;
-    color: #000;
+    font-family: "微軟正黑體", Calibri;
+    font-size: 14px;
+    background: #f4f4f4;
+    color: #696969;
 }
 
-.circle {
-    fill: green;
+text {
+    fill: #696969;
+}
+
+rect {
+    opacity: 0.7;
+}
+
+svg {
+    fill: #fff;
+}
+
+.svg {
+    margin: 0 auto;
+    width: 960px;
+    height: 500px;
+}
+
+.axis line, .axis path {
+    stroke: lightgrey !important;
+}
+
+.init-budget, .all .init-budget rect {
+    fill: #82C140;
+}
+
+.final-budget, .all .final-budget rect {
+    fill: #ffdc02;
+}
+
+.final-budget-hover {
+    fill: #ffc700;
+    cursor: pointer;
+}
+
+.final-budget-text {
+    cursor: pointer;
+}
+
+.additional-rate, .all .additional-rate line {
+    fill: none;
+    stroke: #20A8B2;
+    /*stroke: url(#grad1);*/
+    stroke-width: 2;
+}
+
+.additional-rate text {
+    stroke: none;
+}
+
+.additional-rate-circle {
+    fill: #4C9FB2;
+    stroke: #4C9FB2;
+    stroke-width: 3px;
+}
+
+.additional-rate-circle.is-over {
+    fill: #FF4D4D;
+    stroke: #FF4D4D;
+}
+
+.additional-rate-text {
+    fill: #4C9FB2;
+    font-weight: bolder;
+}
+
+.additional-rate-text.is-over {
+    fill: #FF4D4D;
+}
+
+.accumulative-budget, .all .accumulative-budget rect {
+    fill: #5e7b3d;
+}
+
+.negative {
+    fill: #FF4D4D;
+    font-weight: bolder;
+    text-shadow: 0 0 #630000;
+}
+
+/*table*/
+.table {
+    margin: 0px auto;
+    padding-top: 20px;
+    display: table;
+    width: 960px;
+}
+
+.table .title {
+    display: table-caption;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.table .header {
+    display: table-row;
+    font-weight: bold;
+    text-align: left;
+}
+
+.table .footer {
+    display: table-row;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table .row {
+    display: table-row;
+}
+
+.table .cell {
+    display: table-cell;
+    /*border: 1px solid lightgray;*/
+    padding: 8px 5px;
+}
+
+.table .header .cell {
+    background: #a8a8a8;
+    /*border: 1px solid #a8a8a8;*/
+    word-wrap: break-word;
+}
+
+.table .row .cell {
+}
+
+.table .footer .cell {
+    background: #62807E;
+    /*border: 1px solid #a8a8a8;*/
+    word-wrap: break-word;
+    color: #fff;
+    padding: 5px;
+}
+
+.table .is-number {
+    text-align: right;
+}
+
+.table .fix-width {
+    width: 100px;
 }

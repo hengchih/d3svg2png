@@ -1,0 +1,131 @@
+<html>
+<head>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<div id="svgdiv">
+    <svg width="960" height="500" xmlns="http://www.w3.org/2000/svg" class="#svg">
+        <g transform="translate(60,20)">
+            <g class="x axis" transform="translate(0,450)">
+                <g class="tick" style="opacity: 1;" transform="translate(244,0)">
+                    <line y2="5" x2="0"></line>
+                    <text y="15" x="0" dy=".71em" style="text-anchor: middle;">A1</text>
+                </g>
+                <g class="tick" style="opacity: 1;" transform="translate(618,0)">
+                    <line y2="5" x2="0"></line>
+                    <text y="15" x="0" dy=".71em" style="text-anchor: middle;">A2</text>
+                </g>
+                <path class="domain" d="M0,0V0H862V0"></path>
+            </g>
+            <g class="y axis left-side">
+                <g class="tick" style="opacity: 1;" transform="translate(0,450)">
+                    <line x2="862" y2="0"></line>
+                    <text x="-3" y="0" dy=".32em" style="text-anchor: end;">0</text>
+                </g>
+                <g class="tick" style="opacity: 1;" transform="translate(0,225)">
+                    <line x2="862" y2="0"></line>
+                    <text x="-3" y="0" dy=".32em" style="text-anchor: end;">1000</text>
+                </g>
+                <g class="tick" style="opacity: 1;" transform="translate(0,0)">
+                    <line x2="862" y2="0"></line>
+                    <text x="-3" y="0" dy=".32em" style="text-anchor: end;">2000</text>
+                </g>
+                <path class="domain" d="M0,0H0V450H0"></path>
+            </g>
+            <g class="y axis right-side" transform="translate(862,0)">
+                <g class="tick" style="opacity: 1;" transform="translate(0,450)">
+                    <line x2="0" y2="0"></line>
+                    <text x="3" y="0" dy=".32em" style="text-anchor: start;">0%</text>
+                </g>
+                <g class="tick" style="opacity: 1;" transform="translate(0,385.7142857142857)">
+                    <line x2="0" y2="0"></line>
+                    <text x="3" y="0" dy=".32em" style="text-anchor: start;">10%</text>
+                </g>
+                <g class="tick" style="opacity: 1;" transform="translate(0,321.42857142857144)">
+                    <line x2="0" y2="0"></line>
+                    <text x="3" y="0" dy=".32em" style="text-anchor: start;">20%</text>
+                </g>
+                <g class="tick" style="opacity: 1;" transform="translate(0,257.14285714285717)">
+                    <line x2="0" y2="0"></line>
+                    <text x="3" y="0" dy=".32em" style="text-anchor: start;">30%</text>
+                </g>
+                <g class="tick" style="opacity: 1;" transform="translate(0,192.85714285714283)">
+                    <line x2="0" y2="0"></line>
+                    <text x="3" y="0" dy=".32em" style="text-anchor: start;">40%</text>
+                </g>
+                <g class="tick" style="opacity: 1;" transform="translate(0,128.57142857142856)">
+                    <line x2="0" y2="0"></line>
+                    <text x="3" y="0" dy=".32em" style="text-anchor: start;">50%</text>
+                </g>
+                <g class="tick" style="opacity: 1;" transform="translate(0,64.28571428571433)">
+                    <line x2="0" y2="0"></line>
+                    <text x="3" y="0" dy=".32em" style="text-anchor: start;">60%</text>
+                </g>
+                <path class="domain" d="M0,0H0V450H0"></path>
+            </g>
+            <g class="all" transform="translate(497,5)">
+                <g class="final-budget">
+                    <rect x="0" y="0" width="30" height="10"></rect>
+                    <text x="35" y="10">累計追加</text>
+                </g>
+                <g class="init-budget">
+                    <rect x="100" y="0" width="30" height="10"></rect>
+                    <text x="135" y="10" text-anchor="start">年初設定</text>
+                </g>
+                <g class="accumulative-budget">
+                    <rect x="200" y="0" transform="rotate(45,205,5)" width="10" height="10"></rect>
+                    <text x="215" y="10">累計預算</text>
+                </g>
+                <g class="additional-rate">
+                    <line x1="275" y1="4" x2="315" y2="4"></line>
+                    <circle cx="295" cy="4" r="6" class="additional-rate-circle"></circle>
+                    <text x="320" y="10">追加%</text>
+                </g>
+            </g>
+            <g class="final-budget-group">
+                <rect class="final-budget A1" x="113" width="262" y="344.25" height="105.75"></rect>
+                <rect class="final-budget A2" x="487" width="262" y="129.825" height="320.175"></rect>
+            </g>
+            <g class="init-budget-group">
+                <rect class="init-budget" x="113" width="262" y="379.125" height="70.875"></rect>
+                <rect class="init-budget" x="487" width="262" y="244.79999999999998" height="205.20000000000002"></rect>
+            </g>
+            <path class="additional-rate" transform="translate(131,0)" d="M113,135L487,90"></path>
+            <g class="additional-rate-circles">
+                <circle transform="translate(131,0)" class="additional-rate-circle is-over" cx="113" cy="135"
+                        r="5"></circle>
+                <circle transform="translate(131,0)" class="additional-rate-circle is-over" cx="487" cy="90"
+                        r="5"></circle>
+            </g>
+            <g class="accumulative-budgets">
+                <rect class="accumulative-budget" transform="rotate(45,244,344.25)" x="240" width="8" y="340.25"
+                      height="8"></rect>
+                <rect class="accumulative-budget" transform="rotate(45,618,129.825)" x="614" width="8"
+                      y="125.82499999999999" height="8"></rect>
+            </g>
+            <g class="additional-rate-text">
+                <text class="additional-rate-text is-over" x="244" y="124" text-anchor="middle">49%</text>
+                <text class="additional-rate-text is-over" x="618" y="79" text-anchor="middle">56%</text>
+            </g>
+            <g class="final-budget-text">
+                <text class="final-budget-text positive" x="244" y="367.6875" text-anchor="middle">155</text>
+                <text class="final-budget-text positive" x="618" y="193.3125" text-anchor="middle">511</text>
+            </g>
+            <g class="init-budget-text">
+                <text class="positive" x="244" y="420.5625" text-anchor="middle">315</text>
+                <text class="positive" x="618" y="353.4" text-anchor="middle">912</text>
+            </g>
+            <g class="accumulative-budget-text">
+                <text class="accumulative-budget positive" x="244" y="332.25" text-decoration="underline"
+                      text-anchor="middle">470
+                </text>
+                <text class="accumulative-budget positive" x="618" y="117.82499999999999" text-decoration="underline"
+                      text-anchor="middle">1423
+                </text>
+            </g>
+        </g>
+    </svg>
+</div>
+<script src="node_modules/d3/d3.min.js"></script>
+</body>
+</html>
